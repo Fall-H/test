@@ -10,8 +10,7 @@ OP\_HASH160 \<expected hash> OP\_EQUALVERIFY \<Bob's Pubkey> OP\_CHECKSIG
 
 为了花费这笔交易，Bob必须提供一个有效的预影像和一个签名：
 
-\<Bob's Sig> \<hash pre-image>\
-
+\<Bob's Sig> \<hash pre-image> 
 
 没有提供预影像，Bob无法进入检查他签名的脚本部分。&#x20;
 
@@ -26,8 +25,7 @@ OP_ENDIF
 
 Bob的身份验证数据是相同的：
 
-\
-\<Bob's Sig> \<hash pre-image>
+ \<Bob's Sig> \<hash pre-image>
 
 使用OP\_IF的脚本与使用带有VERIFY后缀的操作码执行相同的操作；它们都作为守卫子句运行。然而，VERIFY的构造更高效，使用了两个较少的操作码。&#x20;
 

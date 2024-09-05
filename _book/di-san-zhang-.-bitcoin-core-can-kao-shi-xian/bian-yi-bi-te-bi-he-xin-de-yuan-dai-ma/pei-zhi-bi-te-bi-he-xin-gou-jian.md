@@ -4,8 +4,7 @@
 
 仔细查看构建文档的第一部分，其中包含构建先决条件。这些是必须在您的系统上存在的库，然后您才能开始编译比特币。如果这些先决条件缺失，构建过程将失败并显示错误。如果由于您遗漏了某些先决条件而导致此问题，则可以安装它，然后从中断处恢复构建过程。假设已安装了先决条件，则可以通过使用autogen.sh脚本生成一组构建脚本来启动构建过程：
 
-\
-$ ./autogen.sh&#x20;
+ $ ./autogen.sh&#x20;
 
 libtoolize: putting auxiliary files in AC\_CONFIG\_AUX\_DIR, 'build-aux'.&#x20;
 
@@ -65,11 +64,9 @@ configure脚本允许您通过--enable-FEATURE和--disable-FEATURE标志启用�
 
 不构建图形用户界面，这需要 Qt 库。这将仅构建服务器和命令行 Bitcoin Core。
 
-\
-接下来，运行配置脚本，自动发现所有必要的库，并为您的系统创建一个定制的构建脚本：
+ 接下来，运行配置脚本，自动发现所有必要的库，并为您的系统创建一个定制的构建脚本：
 
-\
-$ ./configure&#x20;
+ $ ./configure&#x20;
 
 checking for pkg-config... /usr/bin/pkg-config&#x20;
 
@@ -85,7 +82,5 @@ checking host system type... x86\_64-pc-linux-gnu checking for a BSD-compatible 
 
 ...
 
-如果一切顺利，configure命令将结束，并创建定制的构建脚本，使我们能够编译bitcoind。如果存在任何缺少的库或错误，configure命令将以错误而不是创建构建脚本结束。如果出现错误，这很可能是由于缺少或不兼容的库引起的。再次查看构建文档，确保安装了缺少的先决条件，然后重新运行configure，看看是否解决了错误。\
-\
-
+如果一切顺利，configure命令将结束，并创建定制的构建脚本，使我们能够编译bitcoind。如果存在任何缺少的库或错误，configure命令将以错误而不是创建构建脚本结束。如果出现错误，这很可能是由于缺少或不兼容的库引起的。再次查看构建文档，确保安装了缺少的先决条件，然后重新运行configure，看看是否解决了错误。  
 

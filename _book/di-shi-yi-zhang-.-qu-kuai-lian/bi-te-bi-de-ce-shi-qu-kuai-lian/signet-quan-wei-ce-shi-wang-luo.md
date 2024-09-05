@@ -10,8 +10,7 @@ BIP325 的 signet 设计旨在非常容易创建自己的 signet。如果你不�
 
 ## 默认的signet 和自定义 signet
 
-\
-比特币核心支持一个默认的 signet，我们相信这是目前撰写时最广泛使用的 signet。它目前由该项目的两名贡献者运营。如果你启动比特币核心并使用 signet 参数而没有其他与 signet 相关的参数，那么你将使用这个 signet。
+ 比特币核心支持一个默认的 signet，我们相信这是目前撰写时最广泛使用的 signet。它目前由该项目的两名贡献者运营。如果你启动比特币核心并使用 signet 参数而没有其他与 signet 相关的参数，那么你将使用这个 signet。
 
 截至撰写本文时，默认的 signet 有大约 150,000 个区块，大小约为一千兆字节。它支持与比特币主网相同的所有功能，并且还用于通过比特币审判项目测试提议的升级，该项目是比特币核心的软件分支，仅设计用于在 signet 上运行。
 
@@ -19,8 +18,7 @@ BIP325 的 signet 设计旨在非常容易创建自己的 signet。如果你不�
 
 bitcoind -signet -signetchallenge=0123...cdef -signetseednode=example.com:1234
 
-\
-截至撰写本文时，我们通常建议将挖矿软件的公开测试放在 testnet3 上进行，将所有其他比特币软件的公开测试放在默认 signet 上进行。
+ 截至撰写本文时，我们通常建议将挖矿软件的公开测试放在 testnet3 上进行，将所有其他比特币软件的公开测试放在默认 signet 上进行。
 
 要与你选择的 signet 进行交互，你可以使用 bitcoin-cli 的 -signet 参数，类似于你使用 testnet 的方式。例如：
 
@@ -43,4 +41,4 @@ $ bitcoin-cli -signet getblockchaininfo
 }// Some code
 ```
 
-\
+ 

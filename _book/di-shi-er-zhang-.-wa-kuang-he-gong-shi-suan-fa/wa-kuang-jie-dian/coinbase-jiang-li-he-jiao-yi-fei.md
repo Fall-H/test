@@ -9,8 +9,7 @@
 
 可以在比特币核心客户端中的GetBlockSubsidy函数中看到计算方式，如示例12-3所示。
 
-\
-示例 12-3. 计算区块奖励 —— 函数 GetBlockSubsidy，比特币核心客户端，main.cpp
+ 示例 12-3. 计算区块奖励 —— 函数 GetBlockSubsidy，比特币核心客户端，main.cpp
 
 <pre class="language-cpp"><code class="lang-cpp">CAmount GetBlockSubsidy(int nHeight, const Consensus::Params&#x26; consensusParams) 
 {
@@ -25,8 +24,7 @@
 }
 </code></pre>
 
-\
-初始补贴以 satoshi 为单位计算，将 50 乘以 COIN 常量（100,000,000 satoshi）。这将初始奖励（nSubsidy）设置为 50 亿 satoshi。
+ 初始补贴以 satoshi 为单位计算，将 50 乘以 COIN 常量（100,000,000 satoshi）。这将初始奖励（nSubsidy）设置为 50 亿 satoshi。
 
 接下来，该函数通过当前区块高度除以减半间隔（SubsidyHalvingInterval）来计算已发生的减半次数。
 

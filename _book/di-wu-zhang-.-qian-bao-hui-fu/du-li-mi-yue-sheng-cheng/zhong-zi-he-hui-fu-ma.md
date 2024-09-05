@@ -24,8 +24,7 @@ army van defense carry jealous true garbage claim echo media make crunch
 即使您使用设计用于轻松记忆的恢复码类型，我们强烈建议您考虑将其写下来。
 {% endhint %}
 
-\
-截至撰写本文时，有几种不同类型的恢复码正在广泛使用：
+ 截至撰写本文时，有几种不同类型的恢复码正在广泛使用：
 
 _**BIP39**_&#x20;
 

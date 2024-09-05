@@ -2,14 +2,11 @@
 
 比特币命令行助手 bitcoin-cli 对于探索比特币核心API和测试功能非常有用。但是，API的整个目的在于以编程方式访问函数。在本节中，我们将演示如何从另一个程序访问比特币核心。
 
-\
-比特币核心的API是一个JSON-RPC接口。JSON是一种非常方便的数据呈现方式，可以让人类和程序都轻松读取。RPC代表远程过程调用，这意味着我们通过网络协议调用远程（位于比特币核心节点上的）过程（函数）。在这种情况下，网络协议是HTTP。
+ 比特币核心的API是一个JSON-RPC接口。JSON是一种非常方便的数据呈现方式，可以让人类和程序都轻松读取。RPC代表远程过程调用，这意味着我们通过网络协议调用远程（位于比特币核心节点上的）过程（函数）。在这种情况下，网络协议是HTTP。
 
-\
-当我们使用bitcoin-cli命令获取命令的帮助时，它向我们展示了使用curl的示例，这是一种功能多样的命令行HTTP客户端，用于构建这些JSON-RPC调用之一：
+ 当我们使用bitcoin-cli命令获取命令的帮助时，它向我们展示了使用curl的示例，这是一种功能多样的命令行HTTP客户端，用于构建这些JSON-RPC调用之一：
 
-\
-$ curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest",&#x20;
+ $ curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest",&#x20;
 
 "method": "getblockchaininfo",
 
@@ -118,11 +115,10 @@ print("Total value in block: ", block_value)
 
 运行这段代码，我们得到：
 
-\
-$ python rpc\_block.py&#x20;
+ $ python rpc\_block.py&#x20;
 
 Total value in block: 10322.07722534
 
 我们的示例代码计算出这个区块中的总交易价值为10,322.07722534 BTC（包括25 BTC的奖励和0.0909 BTC的手续费）。与通过搜索区块哈希或高度在区块浏览器网站上报告的金额进行比较。一些区块浏览器报告的总值不包括奖励和手续费。看看你能否发现差异。
 
-\
+ 

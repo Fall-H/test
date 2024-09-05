@@ -18,9 +18,7 @@ CXX libbitcoin\_node\_a-blockencodings.o&#x20;
 
 CXX libbitcoin\_node\_a-blockfilter.o&#x20;
 
-\[... many more compilation messages follow ...]\
-\
-在性能较快且具有多个CPU的系统上，您可能希望设置并行编译作业的数量。例如，`make -j 2` 将使用两个可用的核心。如果一切顺利，比特币核心现在已经编译完成。您应该使用 `make check` 运行单元测试套件，以确保链接的库没有明显的问题。最后一步是使用 `make install` 命令在您的系统上安装各种可执行文件。由于此步骤需要管理员权限，因此您可能需要输入您的用户密码：
+\[... many more compilation messages follow ...]  在性能较快且具有多个CPU的系统上，您可能希望设置并行编译作业的数量。例如，`make -j 2` 将使用两个可用的核心。如果一切顺利，比特币核心现在已经编译完成。您应该使用 `make check` 运行单元测试套件，以确保链接的库没有明显的问题。最后一步是使用 `make install` 命令在您的系统上安装各种可执行文件。由于此步骤需要管理员权限，因此您可能需要输入您的用户密码：
 
 $ make check && sudo make install&#x20;
 

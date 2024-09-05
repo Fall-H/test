@@ -8,8 +8,7 @@ Tx1发送了0.001比特币（100,000 satoshi）到由Alice的密钥锁定的输�
 
 Alice的Tx2包含两个新输出，一个支付75,000 satoshi购买播客，另一个支付20,000 satoshi作为找零返回给Alice。
 
-\
-
+ 
 
 <figure><img src="../../.gitbook/assets/2.3.png" alt=""><figcaption><p>图 2-3.  交易链是指一系列交易，其中一个交易的输出是下一个交易中的输入</p></figcaption></figure>
 

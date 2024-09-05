@@ -1,7 +1,6 @@
 # Taproot资产
 
-\
-Taproot 资产原名 Taro，是一种受 RGB 强烈影响的彩色币协议。与 RGB 相比，Taproot 资产使用的一种 P2C 合约形式与 Taproot 用于启用 MAST 功能的版本非常相似（请参阅“Merklized Alternative Script Trees (MAST)”第172页）。Taproot 资产相比 RGB 的优势在于，它与广泛使用的 Taproot 协议的相似性使得钱包和其他软件更容易实现。但其缺点是，在实现非资产功能，如身份令牌时，可能没有 RGB 协议灵活。
+ Taproot 资产原名 Taro，是一种受 RGB 强烈影响的彩色币协议。与 RGB 相比，Taproot 资产使用的一种 P2C 合约形式与 Taproot 用于启用 MAST 功能的版本非常相似（请参阅“Merklized Alternative Script Trees (MAST)”第172页）。Taproot 资产相比 RGB 的优势在于，它与广泛使用的 Taproot 协议的相似性使得钱包和其他软件更容易实现。但其缺点是，在实现非资产功能，如身份令牌时，可能没有 RGB 协议灵活。
 
 {% hint style="info" %}
 Taproot 是比特币协议的一部分，而 Taproot 资产却不是，尽管名字相似。RGB 和 Taproot 资产都是建立在比特币协议之上的协议。比特币原生支持的唯一资产是比特币。
@@ -9,8 +8,7 @@ Taproot 是比特币协议的一部分，而 Taproot 资产却不是，尽管名
 
 与 RGB 相比，Taproot 资产更加注重与 LN 的兼容性。在 LN 上转发非比特币资产的一个挑战是，有两种不同的方式来进行发送，每种方式都有一套不同的权衡：
 
-\
-_本地转发_&#x20;
+ _本地转发_&#x20;
 
 &#x20;           在发送方和接收方之间的每一跳都必须知道特定资产（彩色币类型）并具有足够的余额来支持转发付款。
 
@@ -24,4 +22,4 @@ Taproot 资产和 RGB 理论上都可以支持本地和转换转发。Taproot �
 
 有关更多信息，请参阅 [Taproot 资产的文档](https://docs.lightning.engineering/the-lightning-network/taproot-assets)。此外，Taproot 资产的开发者正在研究一些 BIP，这些 BIP 可能在本书印刷后可用。
 
-\
+ 

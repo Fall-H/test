@@ -2,8 +2,7 @@
 
 艾丽丝点击“接收”按钮，显示了一个二维码，如图1-1所示。
 
-\
-
+ 
 
 <figure><img src="../../.gitbook/assets/1.1.png" alt=""><figcaption><p>图 1-1. Alice在她的手机比特币钱包上使用“接收”界面，并以二维码格式显示了她的地址。</p></figcaption></figure>
 

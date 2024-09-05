@@ -18,13 +18,11 @@
 
 我们可以通过从比特币核心获取Alice的交易总额来验证我们的权重计算：
 
-$ bitcoin-cli getrawtransaction 466200308696215bbc949d5141a49a41\\\
-38ecdfdfaa2a8029c1f9bcecd1f96177 2 | jq .weight&#x20;
+$ bitcoin-cli getrawtransaction 466200308696215bbc949d5141a49a41\\ 38ecdfdfaa2a8029c1f9bcecd1f96177 2 | jq .weight&#x20;
 
 569
 
-Alice在本章开头的示例6-1中的交易以权重单位表示如图6-6所示。通过比较两个图像中各个字段的大小差异，可以看到因子的作用。\
-
+Alice在本章开头的示例6-1中的交易以权重单位表示如图6-6所示。通过比较两个图像中各个字段的大小差异，可以看到因子的作用。 
 
 <figure><img src="../.gitbook/assets/6.6.png" alt=""><figcaption><p>图 6-6.  Alice交易的字节映射</p></figcaption></figure>
 

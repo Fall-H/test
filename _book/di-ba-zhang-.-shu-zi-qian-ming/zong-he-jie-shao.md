@@ -1,7 +1,6 @@
 # 综合介绍
 
-\
-目前比特币中使用了两种签名算法，分别是Schnorr签名算法和椭圆曲线数字签名算法（ECDSA）。这些算法基于椭圆曲线私钥/公钥对进行数字签名，如第56页的“椭圆曲线加密解释”中所描述的。它们用于花费SegWit v0 P2WPKH输出、SegWit v1 P2TR路径花费，以及脚本函数OP\_CHECKSIG、OP\_CHECKSIGVERIFY、OP\_CHECKMULTISIG、OP\_CHECKMULTISIGVERIFY和OP\_CHECKSIGADD。每当其中一个被执行时，都必须提供一个签名。
+ 目前比特币中使用了两种签名算法，分别是Schnorr签名算法和椭圆曲线数字签名算法（ECDSA）。这些算法基于椭圆曲线私钥/公钥对进行数字签名，如第56页的“椭圆曲线加密解释”中所描述的。它们用于花费SegWit v0 P2WPKH输出、SegWit v1 P2TR路径花费，以及脚本函数OP\_CHECKSIG、OP\_CHECKSIGVERIFY、OP\_CHECKMULTISIG、OP\_CHECKMULTISIGVERIFY和OP\_CHECKSIGADD。每当其中一个被执行时，都必须提供一个签名。
 
 在比特币中，数字签名有三个作用。首先，签名证明了私钥的控制者，也就是资金的所有者，已经授权使用这些资金。其次，授权的证据是不可否认的（不可否认性）。第三，被授权的交易不能被未经身份验证的第三方更改，其完整性得到保证。
 
