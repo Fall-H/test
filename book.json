@@ -1,6 +1,6 @@
 {
     "gitbook": "3.2.3",
     "plugins": [
-        "alert-msg","hints","url-embed"
+        "hints","url-embed","flexible-alerts"
     ]
 }
